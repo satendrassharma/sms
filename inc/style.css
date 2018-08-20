@@ -1,0 +1,59 @@
+header{
+    background:black;
+    text-align:center;
+}
+header p{
+    color:white;
+    margin:20px 0;
+    
+}
+section{
+    background:lightgray;
+    box-shadow:1px 1px 1px lightgray;
+}
+section ul{
+    list-style-type:none;
+    margin:0;
+    padding:10px 0;
+}
+section ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+section .row .left{
+    text-align:left;
+}
+section .row .right{
+    text-align:right;
+}
+section .row{
+    justify-content: space-between;
+}
+.box{
+    border:1px solid red;
+}
+
+table{
+    text-align:center;
+}
+
+thead{
+    color:white;
+    text-align:center;
+}
+
+
+/* custom style */
+
+.anim{
+    display:block;
+    color:red;
+    transition-property: display;
+    transition-duration:2s;
+
+}
+.changing{
+    display:none;
+    color:green;
+
+}

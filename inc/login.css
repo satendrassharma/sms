@@ -1,0 +1,17 @@
+header{
+    background:black;
+    text-align:center;
+}
+header p{
+    color:white;
+    margin:20px 0;
+    
+}
+
+
+
+.form-wrapper{
+    display:flex;
+    justify-content: center;
+    
+}
